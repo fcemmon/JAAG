@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=JAAG
+Comment=JAAG P2P Cryptocurrency
+Comment[fr]=JAAG, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=JAAG, eşten eşe kriptografik sanal para birimi
+Exec=jaag-qt %u
+Terminal=false
+Type=Application
+Icon=jaag128
+MimeType=x-scheme-handler/jaag;
+Categories=Office;Finance;
