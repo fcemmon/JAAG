@@ -8,6 +8,7 @@
         <file alias="fr">locale/jaag_fr.qm</file>
         <file alias="it">locale/jaag_it.qm</file>
         <file alias="ja">locale/jaag_ja.qm</file>
+        <file alias="nl">locale/jaag_nl.qm</file>
         <file alias="pl">locale/jaag_pl.qm</file>
         <file alias="pt">locale/jaag_pt.qm</file>
         <file alias="ru">locale/jaag_ru.qm</file>

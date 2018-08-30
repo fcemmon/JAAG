@@ -1,6 +1,6 @@
 ### TestGen ###
 
-Utilities to generate test vectors for the data-driven JAAGCoin tests.
+Utilities to generate test vectors for the data-driven Jaag tests.
 
 Usage: 
 

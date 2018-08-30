@@ -17,7 +17,7 @@ packages:
 - "binutils-gold"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/jaagcoreproject/jaag.git"
+- "url": "https://github.com/jaagpay/jaag.git"
   "dir": "jaag"
 files:
 - "raspberrypi-tools.tar.gz"

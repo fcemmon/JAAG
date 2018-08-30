@@ -19,7 +19,7 @@
         "quote": "\"",
         "backslash": "\\",
         "controls": "\b\f\n\r\t",
-        "jaag": "/ & \/",
+        "slash": "/ & \/",
         "alpha": "abcdefghijklmnopqrstuvwyz",
         "ALPHA": "ABCDEFGHIJKLMNOPQRSTUVWYZ",
         "digit": "0123456789",

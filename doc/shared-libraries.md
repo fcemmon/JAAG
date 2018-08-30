@@ -3,7 +3,7 @@ Shared Libraries
 
 ## jaagconsensus
 
-The purpose of this library is to make the verification functionality that is critical to jaag's consensus available to other applications, e.g. to language bindings.
+The purpose of this library is to make the verification functionality that is critical to Jaag's consensus available to other applications, e.g. to language bindings.
 
 ### API
 
@@ -11,7 +11,7 @@ The interface is defined in the C header `jaagconsensus.h` located in  `src/scri
 
 #### Version
 
-`jaagconsensus_version` returns an `unsigned int` with the the API version *(currently at an experimental `0`)*.
+`jaagconsensus_version` returns an `unsigned int` with the API version *(currently at an experimental `0`)*.
 
 #### Script Validation
 
@@ -30,6 +30,9 @@ The interface is defined in the C header `jaagconsensus.h` located in  `src/scri
 - `jaagconsensus_SCRIPT_FLAGS_VERIFY_NONE`
 - `jaagconsensus_SCRIPT_FLAGS_VERIFY_P2SH` - Evaluate P2SH ([BIP16](https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki)) subscripts
 - `jaagconsensus_SCRIPT_FLAGS_VERIFY_DERSIG` - Enforce strict DER ([BIP66](https://github.com/bitcoin/bips/blob/master/bip-0066.mediawiki)) compliance
+- `jaagconsensus_SCRIPT_FLAGS_VERIFY_NULLDUMMY` - Enforce NULLDUMMY ([BIP147](https://github.com/bitcoin/bips/blob/master/bip-0147.mediawiki))
+- `jaagconsensus_SCRIPT_FLAGS_VERIFY_CHECKLOCKTIMEVERIFY` - Enable CHECKLOCKTIMEVERIFY ([BIP65](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki))
+- `jaagconsensus_SCRIPT_FLAGS_VERIFY_CHECKSEQUENCEVERIFY` - Enable CHECKSEQUENCEVERIFY ([BIP112](https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki))
 
 ##### Errors
 - `jaagconsensus_ERR_OK` - No errors with input parameters *(see the return value of `jaagconsensus_verify_script` for the verification status)*

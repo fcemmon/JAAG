@@ -1,5 +1,5 @@
 [Unit]
-Description=JAAGCoin's distributed currency daemon
+Description=Jaag's distributed currency daemon
 After=network.target
 
 [Service]

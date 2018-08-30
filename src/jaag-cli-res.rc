@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "JAAGCoin"
-            VALUE "FileDescription",    "jaag-cli (JSON-RPC client for JAAG Coin Core)"
+            VALUE "CompanyName",        "Jaag"
+            VALUE "FileDescription",    "jaag-cli (JSON-RPC client for " PACKAGE_NAME ")"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "jaag-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR

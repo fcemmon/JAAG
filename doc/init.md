@@ -68,9 +68,9 @@ can then be controlled by group membership.
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/jaagd`  
-Configuration file:  `~/Library/Application Support/JAAGCore/jaag.conf`  
-Data directory:      `~/Library/Application Support/JAAGCore`
-Lock file:           `~/Library/Application Support/JAAGCore/.lock`
+Configuration file:  `~/Library/Application Support/JaagCore/jaag.conf`  
+Data directory:      `~/Library/Application Support/JaagCore`
+Lock file:           `~/Library/Application Support/JaagCore/.lock`
 
 4. Installing Service Configuration
 -----------------------------------

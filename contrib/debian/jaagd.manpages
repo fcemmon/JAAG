@@ -1,3 +1,2 @@
-debian/manpages/jaagd.1
-debian/manpages/jaag.conf.5
-debian/manpages/jaag-cli.1
+doc/man/jaagd.1
+doc/man/jaag-cli.1

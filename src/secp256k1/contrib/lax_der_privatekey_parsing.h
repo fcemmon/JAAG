@@ -47,7 +47,7 @@ extern "C" {
  *       compressed:  1 if the key should be exported in
  *                    compressed format, 0 otherwise
  *
- *  This function is purely meant for compatibility with applications that
+ *  This function is gbcoinly meant for compatibility with applications that
  *  require BER encoded keys. When working with secp256k1-specific code, the
  *  simple 32-byte private keys are sufficient.
  *

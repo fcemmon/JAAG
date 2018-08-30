@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.jaag.JAAG-Qt";
+        return @"org.jaag.Jaag-Qt";
     } else {
         return [self __bundleIdentifier];
     }

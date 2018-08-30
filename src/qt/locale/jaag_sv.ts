@@ -58,12 +58,12 @@
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your JAAGCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>De här är dina JAAGCoin-adresser för att skicka betalningar. Kontrollera alltid mängden och mottagaradressen innan du skickar mynt.</translation>
+        <source>These are your Jaag addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>De här är dina Jaag-adresser för att skicka betalningar. Kontrollera alltid mängden och mottagaradressen innan du skickar mynt.</translation>
     </message>
     <message>
-        <source>These are your JAAGCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>De här är dina JAAGCoin-adresser för betalningsmottagningar. Det rekommenderas att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your Jaag addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>De här är dina Jaag-adresser för betalningsmottagningar. Det rekommenderas att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Plånbok krypterad</translation>
     </message>
     <message>
-        <source>JAAGCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your jaags from being stolen by malware infecting your computer.</source>
-        <translation>JAAGCoin kommer nu att färdigställa krypteringsprocessen. Kom ihåg att krypteringen av din plånbok inte kan skydda dig helt och hållet från att dina JAAGCoin stjäls av skadeprogram som har infekterat din dator.</translation>
+        <source>Jaag will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your jaags from being stolen by malware infecting your computer.</source>
+        <translation>Jaag kommer nu att färdigställa krypteringsprocessen. Kom ihåg att krypteringen av din plånbok inte kan skydda dig helt och hållet från att dina Jaag stjäls av skadeprogram som har infekterat din dator.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -219,8 +219,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>JAAG Coin Core</source>
-        <translation>JAAG Coin Core
+        <source>Jaag Core</source>
+        <translation>Jaag Core
 </translation>
     </message>
     <message>
@@ -244,8 +244,8 @@
         <translation>&amp;Skicka</translation>
     </message>
     <message>
-        <source>Send coins to a JAAGCoin address</source>
-        <translation>Skicka mynt till en JAAGCoin-adress</translation>
+        <source>Send coins to a Jaag address</source>
+        <translation>Skicka mynt till en Jaag-adress</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -253,7 +253,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and jaag: URIs)</source>
-        <translation>Begär betalningar (genererar QR-koder och JAAGCoin:-URI:s)</translation>
+        <translation>Begär betalningar (genererar QR-koder och Jaag:-URI:s)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -272,8 +272,8 @@
         <translation>Avsluta applikationen</translation>
     </message>
     <message>
-        <source>&amp;About JAAG Coin Core</source>
-        <translation>&amp;Om JAAG Coin Core</translation>
+        <source>&amp;About Jaag Core</source>
+        <translation>&amp;Om Jaag Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -288,8 +288,8 @@
         <translation>&amp;Alternativ...</translation>
     </message>
     <message>
-        <source>Modify configuration options for JAAGCoin</source>
-        <translation>Anpassa konfigurationsalternatv för JAAGCoin</translation>
+        <source>Modify configuration options for Jaag</source>
+        <translation>Anpassa konfigurationsalternatv för Jaag</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -340,16 +340,16 @@
         <translation>Signera &amp;meddelande...</translation>
     </message>
     <message>
-        <source>Sign messages with your JAAGCoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med dina JAAGCoin-adresser för att bevisa att du äger dem</translation>
+        <source>Sign messages with your Jaag addresses to prove you own them</source>
+        <translation>Signera meddelanden med dina Jaag-adresser för att bevisa att du äger dem</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Bekräfta meddelande...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified JAAGCoin addresses</source>
-        <translation>Bekräfta meddelanden för att garantera att de signerades med de angivna JAAGCoin-adresserna</translation>
+        <source>Verify messages to ensure they were signed with specified Jaag addresses</source>
+        <translation>Bekräfta meddelanden för att garantera att de signerades med de angivna Jaag-adresserna</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -405,15 +405,15 @@
     </message>
     <message>
         <source>Open a jaag: URI or payment request</source>
-        <translation>Öppna en JAAGCoin-URI eller betalningsbegäran</translation>
+        <translation>Öppna en Jaag-URI eller betalningsbegäran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandoradalternativ</translation>
     </message>
     <message>
-        <source>Show the JAAG Coin Core help message to get a list with possible JAAGCoin command-line options</source>
-        <translation>Visa JAAG Coin Core-hjälpmeddelandet för att få en lista med möjliga JAAGCoin-kommandoradalternativ</translation>
+        <source>Show the Jaag Core help message to get a list with possible Jaag command-line options</source>
+        <translation>Visa Jaag Core-hjälpmeddelandet för att få en lista med möjliga Jaag-kommandoradalternativ</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -790,16 +790,16 @@ Adress: %4
         <translation>Darksend-konfiguration</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening JAAGCoin's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt om till grundläggande (%1 och 2 omgångar). Du kan ändra detta när som helst genom att öppna JAAGCoin:s konfigurationsskärm.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Jaag's configuration screen.</source>
+        <translation>Darksend ställdes framgångsrikt om till grundläggande (%1 och 2 omgångar). Du kan ändra detta när som helst genom att öppna Jaag:s konfigurationsskärm.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening JAAGCoin's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt in på hög (%1 och 8 omgångar). Du kan ändra detta när som helst genom att öppna JAAGCoin:s konfigurationsskärm.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Jaag's configuration screen.</source>
+        <translation>Darksend ställdes framgångsrikt in på hög (%1 och 8 omgångar). Du kan ändra detta när som helst genom att öppna Jaag:s konfigurationsskärm.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening JAAGCoin's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt in på maximal (%1 och 16 omgångar). Du kan ändra detta när som helst genom att öppna JAAGCoin:s konfigurationsskärm</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Jaag's configuration screen.</source>
+        <translation>Darksend ställdes framgångsrikt in på maximal (%1 och 16 omgångar). Du kan ändra detta när som helst genom att öppna Jaag:s konfigurationsskärm</translation>
     </message>
 </context>
 <context>
@@ -841,8 +841,8 @@ Adress: %4
         <translation>Redigera avsändaradress</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid JAAGCoin address.</source>
-        <translation>Den angivna adressen "%1" är inte en giltig JAAGCoin-adress.</translation>
+        <source>The entered address "%1" is not a valid Jaag address.</source>
+        <translation>Den angivna adressen "%1" är inte en giltig Jaag-adress.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -883,8 +883,8 @@ Adress: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>JAAG Coin Core</source>
-        <translation>JAAG Coin Core
+        <source>Jaag Core</source>
+        <translation>Jaag Core
 </translation>
     </message>
     <message>
@@ -931,16 +931,16 @@ Adress: %4
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to JAAG Coin Core.</source>
-        <translation>Välkommen till JAAG Coin Core.</translation>
+        <source>Welcome to Jaag Core.</source>
+        <translation>Välkommen till Jaag Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where JAAG Coin Core will store its data.</source>
-        <translation>Då detta är första gången programmet startas kan du välja var JAAG Coin Core ska lagra sin data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Jaag Core will store its data.</source>
+        <translation>Då detta är första gången programmet startas kan du välja var Jaag Core ska lagra sin data.</translation>
     </message>
     <message>
-        <source>JAAG Coin Core will download and store a copy of the JAAGCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>JAAG Coin Core kommer att laddas ned och lagra en kopia av JAAGCoin:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
+        <source>Jaag Core will download and store a copy of the Jaag block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Jaag Core kommer att laddas ned och lagra en kopia av Jaag:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -989,12 +989,12 @@ Adress: %4
         <translation>&amp;Huvud</translation>
     </message>
     <message>
-        <source>Automatically start JAAGCoin after logging in to the system.</source>
-        <translation>Starta JAAGCoin automatiskt efter systeminloggning.</translation>
+        <source>Automatically start Jaag after logging in to the system.</source>
+        <translation>Starta Jaag automatiskt efter systeminloggning.</translation>
     </message>
     <message>
-        <source>&amp;Start JAAGCoin on system login</source>
-        <translation>&amp;Starta JAAGCoin vid systeminloggning</translation>
+        <source>&amp;Start Jaag on system login</source>
+        <translation>&amp;Starta Jaag vid systeminloggning</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1021,8 +1021,8 @@ Adress: %4
         <translation>Denna mängd fungerar som en tröskel att stänga av Darksend då det har uppnåtts.</translation>
     </message>
     <message>
-        <source>Amount of JAAGCoin to keep anonymized</source>
-        <translation>Mängd JAAGCoin att bibehålla anonymiserade</translation>
+        <source>Amount of Jaag to keep anonymized</source>
+        <translation>Mängd Jaag att bibehålla anonymiserade</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1049,8 +1049,8 @@ Adress: %4
         <translation>&amp;Nätverk</translation>
     </message>
     <message>
-        <source>Automatically open the JAAGCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna JAAGCoin:s klientport automatiskt på routern. Detta fungerar bara om din router stöder UPnP och är aktiverad.</translation>
+        <source>Automatically open the Jaag client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna Jaag:s klientport automatiskt på routern. Detta fungerar bara om din router stöder UPnP och är aktiverad.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1101,8 +1101,8 @@ Adress: %4
         <translation>Användargränssnitt&amp;språk: </translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting JAAGCoin.</source>
-        <translation>Användargränssnittspråket kan ställas in här. Denna inställning träder i kraft efter att JAAGCoin startats om.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Jaag.</source>
+        <translation>Användargränssnittspråket kan ställas in här. Denna inställning träder i kraft efter att Jaag startats om.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1182,8 +1182,8 @@ https://www.transifex.com/projects/p/jaag/</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the JAAGCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara utdaterad. Din plånbok synkroniseras automatiskt med JAAGCoin-nätverket efter att en anslutning har etablerats men denna process har ännu inte slutförts.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Jaag network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara utdaterad. Din plånbok synkroniseras automatiskt med Jaag-nätverket efter att en anslutning har etablerats men denna process har ännu inte slutförts.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1435,8 +1435,8 @@ https://www.transifex.com/projects/p/jaag/</translation>
         <translation>Antal anslutningar</translation>
     </message>
     <message>
-        <source>Open the JAAGCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna JAAGCoins avsökningsloggfil från den nuvarande datakatalogen. Detta kan ta ett par sekunder för stora loggfiler.</translation>
+        <source>Open the Jaag debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna Jaags avsökningsloggfil från den nuvarande datakatalogen. Detta kan ta ett par sekunder för stora loggfiler.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1507,8 +1507,8 @@ https://www.transifex.com/projects/p/jaag/</translation>
         <translation>Ut:</translation>
     </message>
     <message>
-        <source>Welcome to the JAAGCoin RPC console.</source>
-        <translation>Välkommen till JAAGCoins RPC-konsol.</translation>
+        <source>Welcome to the Jaag RPC console.</source>
+        <translation>Välkommen till Jaags RPC-konsol.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1542,8 +1542,8 @@ https://www.transifex.com/projects/p/jaag/</translation>
         <translation>Åt&amp;eranvänd en befintlig mottagaradress (rekommenderas inte)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the JAAGCoin network.</source>
-        <translation>Ett valfritt meddelande att bifoga betalningsbegärandet vilket kommer att visas när begärandet öppnas. Observera: Meddelandet kommer inte att skickas med betalningen över JAAGCoin-nätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Jaag network.</source>
+        <translation>Ett valfritt meddelande att bifoga betalningsbegärandet vilket kommer att visas när begärandet öppnas. Observera: Meddelandet kommer inte att skickas med betalningen över Jaag-nätverket.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -1899,8 +1899,8 @@ https://www.transifex.com/projects/p/jaag/</translation>
         <translation>Fel: Plånboken låstes upp enbart för att anonymisera mynt.</translation>
     </message>
     <message>
-        <source>Warning: Invalid JAAGCoin address</source>
-        <translation>Varning: Ogiltig JAAGCoin-adress</translation>
+        <source>Warning: Invalid Jaag address</source>
+        <translation>Varning: Ogiltig Jaag-adress</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1958,8 +1958,8 @@ https://www.transifex.com/projects/p/jaag/</translation>
         <translation>Meddelande:</translation>
     </message>
     <message>
-        <source>A message that was attached to the jaag: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the JAAGCoin network.</source>
-        <translation>Ett meddelande som bifogades till JAAGCoin: URI vilket kommer att lagras med transaktionen så att du vet. Observera: Meddelandet kommer inte att skickas över JAAGCoin-nätverket.</translation>
+        <source>A message that was attached to the jaag: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Jaag network.</source>
+        <translation>Ett meddelande som bifogades till Jaag: URI vilket kommer att lagras med transaktionen så att du vet. Observera: Meddelandet kommer inte att skickas över Jaag-nätverket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1985,8 +1985,8 @@ https://www.transifex.com/projects/p/jaag/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>JAAG Coin Core is shutting down...</source>
-        <translation>JAAG Coin Core stängs ned...</translation>
+        <source>Jaag Core is shutting down...</source>
+        <translation>Jaag Core stängs ned...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2036,8 +2036,8 @@ https://www.transifex.com/projects/p/jaag/</translation>
         <translation>Kopiera den nuvarande valda signaturen till systemurklippet</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this JAAGCoin address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna JAAGCoin-adress</translation>
+        <source>Sign the message to prove you own this Jaag address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Jaag-adress</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2060,8 +2060,8 @@ https://www.transifex.com/projects/p/jaag/</translation>
         <translation>Skriv in signeringsadressen, meddelandet, (försäkra dig om att du kopierar linjeavbrott, mellanslag, flikar med mera) och signera nedtill för att verifiera meddelandet. Var försiktig med att inte läsa in mer i signaturen än vad som finns i det signerade meddelandet för att undvika att bli lurad av en mellanhandattack.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified JAAGCoin address</source>
-        <translation>Bekräfta meddelandet för att försäkra dig om att den signerades med den angivna JAAGCoin-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified Jaag address</source>
+        <translation>Bekräfta meddelandet för att försäkra dig om att den signerades med den angivna Jaag-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2127,8 +2127,8 @@ https://www.transifex.com/projects/p/jaag/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>JAAG Coin Core</source>
-        <translation>JAAG Coin Core
+        <source>Jaag Core</source>
+        <translation>Jaag Core
 </translation>
     </message>
     <message>
@@ -2140,8 +2140,8 @@ https://www.transifex.com/projects/p/jaag/</translation>
         <translation>Bitcoin Core-utvecklarna</translation>
     </message>
     <message>
-        <source>The JAAG Coin Core developers</source>
-        <translation>JAAG Coin Core-utvecklarna</translation>
+        <source>The Jaag Core developers</source>
+        <translation>Jaag Core-utvecklarna</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2662,8 +2662,8 @@ https://www.transifex.com/projects/p/jaag/</translation>
         <translation>Sammanbind till fastställd adress och avlyssna alltid den. Använd [host]:port-notation för IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. JAAG Coin Core is probably already running.</source>
-        <translation>Kan inte erhålla ett lås på datakatalog %s. JAAG Coin Core körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. Jaag Core is probably already running.</source>
+        <translation>Kan inte erhålla ett lås på datakatalog %s. Jaag Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -2718,8 +2718,8 @@ https://www.transifex.com/projects/p/jaag/</translation>
         <translation>Detta är en förhandsutgiven testkompilering - använd på egen risk - använd inte för utvinning eller handlarapplikationer.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. JAAG Coin Core is probably already running.</source>
-        <translation>Det går inte att binda till %s till denna dator. JAAG Coin Core körs förmodligen redan.</translation>
+        <source>Unable to bind to %s on this computer. Jaag Core is probably already running.</source>
+        <translation>Det går inte att binda till %s till denna dator. Jaag Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -2942,8 +2942,8 @@ https://www.transifex.com/projects/p/jaag/</translation>
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. JAAG Coin Core is shutting down.</source>
-        <translation>Initialiseringstillståndkontroll misslyckades. JAAG Coin Core stängs ned.</translation>
+        <source>Initialization sanity check failed. Jaag Core is shutting down.</source>
+        <translation>Initialiseringstillståndkontroll misslyckades. Jaag Core stängs ned.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>

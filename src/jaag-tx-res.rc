@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "JAAGCoin"
-            VALUE "FileDescription",    "jaag-tx (CLI JAAGCoin transaction editor utility)"
+            VALUE "CompanyName",        "Jaag"
+            VALUE "FileDescription",    "jaag-tx (CLI Jaag transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "jaag-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR

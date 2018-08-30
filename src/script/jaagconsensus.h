@@ -39,6 +39,7 @@ typedef enum jaagconsensus_error_t
     jaagconsensus_ERR_TX_INDEX,
     jaagconsensus_ERR_TX_SIZE_MISMATCH,
     jaagconsensus_ERR_TX_DESERIALIZE,
+    jaagconsensus_ERR_INVALID_FLAGS,
 } jaagconsensus_error;
 
 /** Script verification flags */
@@ -47,7 +48,12 @@ enum
     jaagconsensus_SCRIPT_FLAGS_VERIFY_NONE                = 0,
     jaagconsensus_SCRIPT_FLAGS_VERIFY_P2SH                = (1U << 0), // evaluate P2SH (BIP16) subscripts
     jaagconsensus_SCRIPT_FLAGS_VERIFY_DERSIG              = (1U << 2), // enforce strict DER (BIP66) compliance
+    jaagconsensus_SCRIPT_FLAGS_VERIFY_NULLDUMMY           = (1U << 4), // enforce NULLDUMMY (BIP147)
     jaagconsensus_SCRIPT_FLAGS_VERIFY_CHECKLOCKTIMEVERIFY = (1U << 9), // enable CHECKLOCKTIMEVERIFY (BIP65)
+    jaagconsensus_SCRIPT_FLAGS_VERIFY_CHECKSEQUENCEVERIFY = (1U << 10), // enable CHECKSEQUENCEVERIFY (BIP112)
+    jaagconsensus_SCRIPT_FLAGS_VERIFY_ALL                 = jaagconsensus_SCRIPT_FLAGS_VERIFY_P2SH | jaagconsensus_SCRIPT_FLAGS_VERIFY_DERSIG |
+                                                            jaagconsensus_SCRIPT_FLAGS_VERIFY_NULLDUMMY | jaagconsensus_SCRIPT_FLAGS_VERIFY_CHECKLOCKTIMEVERIFY |
+                                                            jaagconsensus_SCRIPT_FLAGS_VERIFY_CHECKSEQUENCEVERIFY
 };
 
 /// Returns 1 if the input nIn of the serialized transaction pointed to by

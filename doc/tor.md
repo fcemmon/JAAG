@@ -1,19 +1,19 @@
-TOR SUPPORT IN JAAG Coin Core
+TOR SUPPORT IN JAAG CORE
 =======================
 
-It is possible to run JAAG Coin Core as a Tor hidden service, and connect to such services.
+It is possible to run Jaag Core as a Tor hidden service, and connect to such services.
 
 The following directions assume you have a Tor proxy running on port 9050. Many
 distributions default to having a SOCKS proxy listening on port 9050, but others
-may not. In particular, the Tor Browser Bundle defaults to listening on a random
-port. See [Tor Project FAQ:TBBSocksPort](https://www.torproject.org/docs/faq.html.en#TBBSocksPort)
+may not. In particular, the Tor Browser Bundle defaults to listening on port 9150.
+See [Tor Project FAQ:TBBSocksPort](https://www.torproject.org/docs/faq.html.en#TBBSocksPort)
 for how to properly configure Tor.
 
 
-1. Run JAAG Coin Core behind a Tor proxy
+1. Run Jaag Core behind a Tor proxy
 ----------------------------------
 
-The first step is running JAAG Coin Core behind a Tor proxy. This will already make all
+The first step is running Jaag Core behind a Tor proxy. This will already make all
 outgoing connections be anonymized, but more is possible.
 
 	-proxy=ip:port  Set the proxy server. If SOCKS5 is selected (default), this proxy
@@ -44,7 +44,7 @@ In a typical situation, this suffices to run behind a Tor proxy:
 	./jaagd -proxy=127.0.0.1:9050
 
 
-2. Run a JAAG Coin Core hidden server
+2. Run a Jaag Core hidden server
 -------------------------------
 
 If you configure your Tor system accordingly, it is possible to make your node also
@@ -58,7 +58,7 @@ config file):
 The directory can be different of course, but (both) port numbers should be equal to
 your jaagd's P2P listen port (9999 by default).
 
-	-externalip=X   You can tell JAAG Coin Core about its publicly reachable address using
+	-externalip=X   You can tell Jaag Core about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
 	                configuration, you can find your onion address in
 	                /var/lib/tor/jaagcore-service/hostname. Onion addresses are given
@@ -99,7 +99,7 @@ for normal IPv4/IPv6 communication, use:
 	./jaagd -onion=127.0.0.1:9050 -externalip=ssapp53tmftyjmjb.onion -discover
 
 
-3. List of known JAAG Coin Core Tor relays
+3. List of known Jaag Core Tor relays
 ------------------------------------
 
 * [darkcoinie7ghp67.onion](http://darkcoinie7ghp67.onion/)
@@ -120,14 +120,33 @@ for normal IPv4/IPv6 communication, use:
 
 Starting with Tor version 0.2.7.1 it is possible, through Tor's control socket
 API, to create and destroy 'ephemeral' hidden services programmatically.
-JAAG Coin Core has been updated to make use of this.
+Jaag Core has been updated to make use of this.
 
-This means that if Tor is running (and proper authorization is available),
-JAAG Coin Core automatically creates a hidden service to listen on, without
-manual configuration. This will positively affect the number of available
-.onion nodes.
+This means that if Tor is running (and proper authentication has been configured),
+Jaag Core automatically creates a hidden service to listen on. This will positively 
+affect the number of available .onion nodes.
 
-This new feature is enabled by default if JAAG Coin Core is listening, and
-a connection to Tor can be made. It can be configured with the `-listenonion`,
-`-torcontrol` and `-torpassword` settings. To show verbose debugging
-information, pass `-debug=tor`.
+This new feature is enabled by default if Jaag Core is listening (`-listen`), and
+requires a Tor connection to work. It can be explicitly disabled with `-listenonion=0`
+and, if not disabled, configured using the `-torcontrol` and `-torpassword` settings.
+To show verbose debugging information, pass `-debug=tor`.
+
+Connecting to Tor's control socket API requires one of two authentication methods to be 
+configured. For cookie authentication the user running jaagd must have write access 
+to the `CookieAuthFile` specified in Tor configuration. In some cases this is 
+preconfigured and the creation of a hidden service is automatic. If permission problems 
+are seen with `-debug=tor` they can be resolved by adding both the user running tor and 
+the user running jaagd to the same group and setting permissions appropriately. On 
+Debian-based systems the user running jaagd can be added to the debian-tor group, 
+which has the appropriate permissions. An alternative authentication method is the use 
+of the `-torpassword` flag and a `hash-password` which can be enabled and specified in 
+Tor configuration.
+
+4. Privacy recommendations
+---------------------------
+
+- Do not add anything but bitcoin ports to the hidden service created in section 2.
+  If you run a web service too, create a new hidden service for that.
+  Otherwise it is trivial to link them, which may reduce privacy. Hidden
+  services created automatically (as in section 3) always have only one port
+  open.

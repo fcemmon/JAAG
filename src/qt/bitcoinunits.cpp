@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The JAAG Coin Core developers
+// Copyright (c) 2014-2017 The Jaag Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -72,10 +72,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case JAAG: return QString("JAAG");
-            case mJAAG: return QString("Milli-JAAG (1 / 1" THIN_SP_UTF8 "000)");
-            case uJAAG: return QString("Micro-JAAG (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-JAAG (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case JAAG: return QString("Jaag");
+            case mJAAG: return QString("Milli-Jaag (1 / 1" THIN_SP_UTF8 "000)");
+            case uJAAG: return QString("Micro-Jaag (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-Jaag (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -83,10 +83,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case JAAG: return QString("TestJAAGs");
-            case mJAAG: return QString("Milli-TestJAAG (1 / 1" THIN_SP_UTF8 "000)");
-            case uJAAG: return QString("Micro-TestJAAG (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-TestJAAG (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case JAAG: return QString("TestJaags");
+            case mJAAG: return QString("Milli-TestJaag (1 / 1" THIN_SP_UTF8 "000)");
+            case uJAAG: return QString("Micro-TestJaag (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-TestJaag (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
